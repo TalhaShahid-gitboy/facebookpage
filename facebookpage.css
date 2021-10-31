@@ -1,0 +1,54 @@
+#textboxid{
+    height: 30px;
+    width: 300px;
+    border-radius: 50px;
+
+}
+.flex-container{
+    display: flex;
+}
+.block1, .block2, .block3{
+flex: 1 0 auto;
+padding:10px 0px 0px 0px;
+}
+.block3{
+    padding:10px 0px 0px 350px;
+    color: black;
+}
+.block2{
+    padding:10px 0px 0px 100px;
+    column-gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.Container{
+    display: flex;
+}
+.block4, .block5, .block6{
+    flex: 1 0 auto;
+    padding:10px;
+}
+.block4{
+    background-color:   rgb(247, 243, 243);
+    width:25%;
+    height:550px;
+    overflow-y: scroll ;
+}
+.block5{
+    background-color: rgb(247, 243, 243);
+    width:40%;
+    height:550px;
+    overflow-y: scroll;
+}
+.block6{
+    background-color: rgb(247, 243, 243) ;
+    width:25%;
+    height:550px;
+}
+.Home{
+    font-size: 30px;
+}
+.Profile{  
+    font-size: 20px;
+}
